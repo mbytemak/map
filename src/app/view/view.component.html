@@ -1,0 +1,25 @@
+<div class="flex-container">
+  <div  *ngFor="let newData of newData">
+  
+  
+    <div class="cellin">
+      <img src="{{newData.flag}}">
+  
+      
+      <ul>
+          <li>Name: {{newData.name}}</li>
+          <li>Capital: {{newData.capital}}</li>
+          <li>Area: {{newData.area}}</li>
+          <li>Currency: {{newData.currencies[0].name}}</li>
+          <li>Languages: {{newData.languages[0].name}}</li>
+      </ul>
+      
+    
+    </div>
+    
+    
+    </div>
+  
+  </div>
+  
+  

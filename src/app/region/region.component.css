@@ -1,0 +1,22 @@
+.flex-container{
+
+
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+img{
+
+
+   width:100%;
+
+
+}
+
+
+.cell{
+
+border: 2px solid black;
+
+}

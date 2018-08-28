@@ -1,0 +1,26 @@
+<div class="flex-container">
+
+
+    <div *ngFor="let africa of oceania" class="cell">
+        <div class="cellin">
+            
+            <a [routerLink]="['/view',africa.name]"class="card-link"><img  src="{{africa.flag}}" alt="Card image cap"></a>
+          </div>
+          
+             
+  
+         
+          
+            <div class="cellin">
+                <h5 class="card-title">{{africa.name}}</h5>
+              <p>{{africa.capital}}</p>
+              <a  [routerLink]="['/currency',africa.currencies[0].code]"class="card-link">{{africa.currencies[0].name}}</a>
+              <a [routerLink]="['/language',africa.languages[0].name]"class="card-link">{{africa.languages[0].name}}</a>
+            </div>
+         
+      
+    </div>
+  
+  
+  </div>
+  
