@@ -36,7 +36,7 @@ import { ViewComponent } from './view/view.component';
   imports: [
     BrowserModule,RouterModule.forRoot([
 
-      {path:'region',component:RegionComponent},
+      {path:'',component:RegionComponent},
       {path:'region/Asia',component:AsiaComponent},
       {path:'region/Africa',component:AfricaComponent},
       {path:'region/Americas',component:AmericasComponent},
